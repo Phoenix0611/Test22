@@ -258,3 +258,61 @@ To https://github.com/Phoenix0611/Test22.git
  * [new branch]      master -> master
 
 Study@PC-9-503 MINGW64 /f/LOGOS JS/Git (master)
+
+
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        git.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Study@PC-9-503 MINGW64 /f/LOGOS JS/Git (master)
+$ git add .
+
+Study@PC-9-503 MINGW64 /f/LOGOS JS/Git (master)
+$ git commit
+Vim: Ошибка чтения ввода, выход...
+Vim: Finished.
+
+Study@PC-9-503 MINGW64 /f/LOGOS JS/Git (master)
+$ git commit -m " create p"
+[master fdf02e0]  create p
+ 2 files changed, 261 insertions(+), 1 deletion(-)
+ create mode 100644 git.html
+
+Study@PC-9-503 MINGW64 /f/LOGOS JS/Git (master)
+$ git log
+commit fdf02e01af1d7ab748b41b6261c1260a166103e1
+Author: golmejster <alex.golmejster>
+Date:   Tue Apr 25 21:52:19 2017 +0300
+
+     create p
+
+commit 2fe99574b9d2048dddfbd0df880e5b0ef3c59fbf
+Author: golmejster <alex.golmejster>
+Date:   Tue Apr 25 21:00:43 2017 +0300
+
+    create project
+
+Study@PC-9-503 MINGW64 /f/LOGOS JS/Git (master)
+$ git push origin master
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.76 KiB | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/Phoenix0611/Test22.git
+   2fe9957..fdf02e0  master -> master
+
+Study@PC-9-503 MINGW64 /f/LOGOS JS/Git (master)
+$
+
